@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <!-- <OutputType>Exe</OutputType> -->
+    <OutputType>Exe</OutputType> 
     <!-- Include line 5 for Front End -->
   </PropertyGroup>
   <ItemGroup>
@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProjectName\ProjectName.csproj" />  
+    <ProjectReference Include="..\Bakery\Bakery.csproj" />  
   </ItemGroup>
 
 </Project>

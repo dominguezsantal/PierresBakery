@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MainBakery.Models;
+using Bakery.Models;
 
 namespace Bakery.Tests
 {
