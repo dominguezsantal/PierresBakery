@@ -34,5 +34,6 @@ Test Number | Failed/Passed | Details |
 5b| Passed | Test restored to $5|
 6a| Failed | pastry logic by adding regQuant in order for succesful fail|
 6b|Passed| Pastry test Restored to updatedQuant|
+7a|Passed| Return Menu or X works|
 ## License :
 MIT &copy; 2021 _Alex Dominguez_
