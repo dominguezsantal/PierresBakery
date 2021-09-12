@@ -18,5 +18,11 @@ namespace Bakery.Tests
       {
         Assert.AreEqual(10, Bread.BreadCost(3));
       }
+      
+      [TestMethod]
+      public void BreadCost_ShowCostForFiveLoavesOfBread_5()
+      {
+        Assert.AreEqual(200, Bread.BreadCost(5));
+      }
   }
 }
