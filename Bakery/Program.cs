@@ -12,11 +12,12 @@ namespace PierresBakery
             Bread bread = new Bread(0, 0);
             Pastry pastry = new Pastry(0,0);
             Console.WriteLine("Welcome to Pierre's|Website in French and Spanish Soon| ");
-            Console.WriteLine("We have a delicious selection of breads and pastries.What would you like to order?For breads(press B),pastry(press P) or none(Type no/No)?");
+            Console.WriteLine("IMPORTANT Before Continuing: Make sure you type the letter twice (Example: P + Enter + P) and it's in caps.");
+            Console.WriteLine("We have a delicious selection of breads and pastries.What would you like to order? For breads(press B),pastry(press P) or none(Type NO)?");
 
             string userInput = Console.ReadLine().ToLower();
             string answer = Console.ReadLine();
-            if (answer == "B" || answer == "b")
+            if (answer == "B")
             {
                 Console.WriteLine("BREAD MENU: A loaf: $5. Special Offer: Buy 2, you get 1 free! Enter how many loaves you want?");
                 string userInputBread = Console.ReadLine();
@@ -24,7 +25,7 @@ namespace PierresBakery
                 bread.Cost = Bread.BreadCost(bread.Quant);
                 Console.WriteLine("Your total cost is $" + bread.Cost);
             
-            }else if(answer == "P" || answer == "p")
+            }else if(answer == "P")
             {
                 Console.WriteLine("PASTRY MENU: One pastry: $2. Special Offer: Buy 3, get all 3 pastries for 5$!Enter how many loaves you want? ");
                     string userInputPastry = Console.ReadLine();
@@ -32,17 +33,23 @@ namespace PierresBakery
                     pastry.Cost = Pastry.PastryCost(pastry.Quant);
                     Console.WriteLine("Your total cost is $" + pastry.Cost);
 
-            }else if( answer == "No" || answer == "no" || answer == "NO")
+            }else if(answer == "NO")
             {
             Console.WriteLine("Thank you for checking us out!Have a good day"); 
             }else
             {
-                Console.WriteLine("To go back to the main menu(Press space)");
+                Console.WriteLine("To go back to the main menu(Press space['X' to exit, 'Return' for Main Menu");
+                string finalAnswer = Console.ReadLine();
+
+                if (finalAnswer == "X")
+                {
+                Console.WriteLine("Goodbye/Bonjour");
+                }
+                else
+                {
+                Main();
+                }
             }
-            
-            
-            
-        
         }  
     }
 
