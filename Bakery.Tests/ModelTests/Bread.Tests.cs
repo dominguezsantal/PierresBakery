@@ -22,7 +22,7 @@ namespace Bakery.Tests
       [TestMethod]
       public void BreadCost_ShowCostForFiveLoavesOfBread_5()
       {
-        Assert.AreEqual(200, Bread.BreadCost(5));
+        Assert.AreEqual(20, Bread.BreadCost(5));
       }
   }
 }
