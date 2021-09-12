@@ -13,9 +13,9 @@ namespace Bakery.Tests
         //Assert.AreEqual(typeof(Bread), newBread.GetType());
     //}
     [TestMethod]
-    public void BreadCost_ShowCostforOneLoaf_6()
+    public void BreadCost_ShowCostforOneLoaf_1()
     {
-      Assert.AreEqual(6, Bread.BreadCost(11));
+      Assert.AreEqual(5, Bread.BreadCost(1));
     }
   }
 }
