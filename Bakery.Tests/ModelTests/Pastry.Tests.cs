@@ -16,7 +16,7 @@ namespace Bakery.Tests
     [TestMethod]
         public void PastryPrice_ShowCostForThreePastry_3()
         {
-        Assert.AreEqual(100, Pastry.PastryCost(3));
+        Assert.AreEqual(5, Pastry.PastryCost(3));
 
         }
     }

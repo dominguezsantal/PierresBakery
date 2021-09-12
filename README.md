@@ -31,5 +31,7 @@ Test Number | Failed/Passed | Details |
 4a | Failed | Test for the cost of 1 pastry. I made the pastry free for 1 pastry, but for the first pastry it's supposed to be $2-only free for the third pastry if they buy 2 pastries!|
 4b | Passed| Test restored to $2|
 
+5a| Failed | Test 5a Fail: make 3 pastries for $100 instad of $5.Quite pricy for an error!|
+5b| Passed | Test restored to $5|
 ## License :
 MIT &copy; 2021 _Alex Dominguez_
