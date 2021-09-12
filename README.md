@@ -33,5 +33,7 @@ Test Number | Failed/Passed | Details |
 
 5a| Failed | Test 5a Fail: make 3 pastries for $100 instad of $5.Quite pricy for an error!|
 5b| Passed | Test restored to $5|
+6a| Failed | pastry logic by adding regQuant in order for succesful fail|
+6b|Passed|Pastry test Restored to updatedQuant
 ## License :
 MIT &copy; 2021 _Alex Dominguez_

@@ -35,7 +35,7 @@ namespace Bakery.Tests
             int finalCo = newPastry.Cost;
 
             
-            Assert.AreEqual(regQuant, finalQu);
+            Assert.AreEqual(updatedQuant, finalQu);
             Assert.AreEqual(updatedCost, finalCo);
       }   
     }
