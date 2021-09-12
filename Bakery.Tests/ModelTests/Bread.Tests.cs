@@ -37,6 +37,7 @@ namespace Bakery.Tests
             newBread.Cost = updatedCost;
             int finalCo = newBread.Cost;
 
+            
             Assert.AreEqual(updatedQuant, finalQu);
             Assert.AreEqual(updatedCost, finalCo);
       }
