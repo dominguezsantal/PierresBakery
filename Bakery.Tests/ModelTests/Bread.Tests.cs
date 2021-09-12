@@ -10,7 +10,7 @@ namespace Bakery.Tests
     public void GetBread_CreateInstanceOfBread_Bread()
     {
         Bread newBread = new Bread(0, 0);
-        Assert.AreEqual(typeof(Bread), new Bread.GetType());
+        Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
   }
 }
