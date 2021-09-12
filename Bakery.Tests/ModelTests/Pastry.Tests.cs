@@ -11,7 +11,7 @@ namespace Bakery.Tests
         public void GetBread_CreatesInstanceOfPastry_Pastry()
         {
             Pastry newPastry = new Pastry(0, 0);
-            Assert.AreEqual(typeof(Pastry), regPastry.GetType());
+            Assert.AreEqual(typeof(Pastry), newPastry.GetType());
         }
     }
 } 
