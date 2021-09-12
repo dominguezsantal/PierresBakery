@@ -23,19 +23,25 @@ namespace PierresBakery
                 bread.Cost = Bread.BreadCost(bread.Quant);
                 Console.WriteLine("Great! Your total for this delicious bread is $" + bread.Cost);
             
+            }else if(answer == "P" || answer == "p")
+            {
+
+            }else if(answer == "C" || answer == "c")
+            {
+
             }else if( answer == "No" || answer == "no" || answer == "NO")
             {
-            Console.WriteLine("Have a good day!"); 
+            Console.WriteLine("Thank you for checking us out!Have a good day"); 
+            }else
+            {
+                Console.WriteLine("To go back to the main menu(Press space)");
             }
             
             
             
-            
-        
-        
         
         }  
     }
 
-    }
+}
 
