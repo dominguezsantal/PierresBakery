@@ -1,4 +1,4 @@
-# C# Template 
+# Bienvenue à la Boulangerie Pierre (Welcome to Pierre's Bakery)
 
 
 #### By Alex Dominguez
@@ -10,7 +10,7 @@
 * _MySQL_
 
 
-## Setup/Installation Requirements :triangular_ruler:
+## Setup/Installation Requirements :
 
 * _Clone github repo: https://github.com/dominguezsantal/PierresBakery.git_
 * _Navigate the directory: (cd top name directory)_
@@ -19,5 +19,16 @@
 * _Run: dotnet restore_
 * _The line above will create your obj directories._
 
-## License :clipboard:
+## Tests:
+Test Number | Failed/Passed | Details | 
+--- | --- | --- |
+1a | Failed on purpose | Test for the cost of 1 loaf of bread. The loaf price was changed to $11, but it's supposed to be  5|
+1b | Passed | Test restored to $5|
+2a | Failed | Test for the cost of 3 loaf of bread. The loaf price was changed to $25, but it's supposed to be 10|
+2b | Passed | Test restored to $10|
+3a | Failed | Test for the cost of 5 loaf of bread. The loaf price was changed to $200, but it's supposed to be 20|
+3b | Passed | Test restored to 20|
+4a | Failed | Test for the cost of 1 pastry. I made the pastry free for 1 pastry, but for the first pastry it's supposed to be $2-only free for the third pastry if they buy 2 pastries!|
+
+## License :
 MIT &copy; 2021 _Alex Dominguez_

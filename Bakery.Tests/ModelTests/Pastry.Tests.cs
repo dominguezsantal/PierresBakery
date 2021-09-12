@@ -10,8 +10,8 @@ namespace Bakery.Tests
     [TestMethod]
         public void PastryPrice_ShowCostFor1Pastry_1()
         {
-            Assert.AreEqual(0, Pastry.PastryCost(1));
-           
+        Assert.AreEqual(0, Pastry.PastryCost(1));
+
         }
     }
 } 
