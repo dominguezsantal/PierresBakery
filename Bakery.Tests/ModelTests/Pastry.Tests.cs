@@ -8,10 +8,10 @@ namespace Bakery.Tests
     public class PastryTests
     {
     [TestMethod]
-        public void GetBread_CreatesInstanceOfPastry_Pastry()
+        public void PastryPrice_ShowCostFor1Pastry_1()
         {
-            Pastry newPastry = new Pastry(0, 0);
-            Assert.AreEqual(typeof(Pastry), newPastry.GetType());
+            Assert.AreEqual(0, Pastry.PastryCost(1));
+           
         }
     }
 } 
