@@ -19,5 +19,24 @@ namespace Bakery.Tests
         Assert.AreEqual(5, Pastry.PastryCost(3));
 
         }
+
+     [TestMethod]
+      public void SetObj_SetObj_Pastry()
+      {
+        int quant = 0;
+            int cost = 0;
+            Pastry newPastry = new Pastry(quant, cost);
+
+            int updatedQuant = 2;
+            newBread.Quant = updatedQuant;
+            int finalQu = newPastry.Quant;
+            int updatedCost = 2;
+            newPastry.Cost = updatedCost;
+            int finalCo = newPastry.Cost;
+
+            
+            Assert.AreEqual(regQuant, finalQu);
+            Assert.AreEqual(updatedCost, finalCo);
+      }   
     }
 } 
