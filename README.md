@@ -29,6 +29,7 @@ Test Number | Failed/Passed | Details |
 3a | Failed | Test for the cost of 5 loaf of bread. The loaf price was changed to $200, but it's supposed to be 20|
 3b | Passed | Test restored to 20|
 4a | Failed | Test for the cost of 1 pastry. I made the pastry free for 1 pastry, but for the first pastry it's supposed to be $2-only free for the third pastry if they buy 2 pastries!|
+4b | Passed| Test restored to $2|
 
 ## License :
 MIT &copy; 2021 _Alex Dominguez_
