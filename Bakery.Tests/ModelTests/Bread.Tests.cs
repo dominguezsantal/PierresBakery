@@ -14,9 +14,9 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-      public void BreadPrice_ShowPriceForThreeLoavesOfBread_3()
+      public void BreadCost_ShowCostForThreeLoavesOfBread_3()
       {
-        Assert.AreEqual(25, Bread.BreadPrice(3));
+        Assert.AreEqual(10, Bread.BreadCost(3));
       }
   }
 }
