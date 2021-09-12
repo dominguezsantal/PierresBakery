@@ -2,6 +2,13 @@
 
 
 #### By Alex Dominguez
+## Description:
+A bakery program that a user can decide how pieces of loaves/pastry they want.
+Program also in Spanish and French soon!
+Conditions: 
+      Bread: Buy 2, get 1 free (every 3rd loaf of bread is free.). A single loaf costs $5, two loaves costs $10, and three loaves cost $10.
+     Pastry: Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9, and six pastries costs $10.
+
 
 ## Technologies Used :floppy_disk:
 * _NuGet Package Manager_
