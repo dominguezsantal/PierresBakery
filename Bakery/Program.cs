@@ -17,14 +17,19 @@ namespace PierresBakery
             string answer = Console.ReadLine();
             if (answer == "B" || answer == "b")
             {
-                Console.WriteLine("Here's the options: 1 loaf: $5, but if you buy 2, you get 1 free! Please enter the number you'd like!");
+                Console.WriteLine("BREAD MENU: A loaf: $5. Special Offer: Buy 2, you get 1 free! Enter how many loaves you want?");
                 string userInputBread = Console.ReadLine();
                 bread.Quant += int.Parse(userInputBread);
                 bread.Cost = Bread.BreadCost(bread.Quant);
-                Console.WriteLine("Great! Your total for this delicious bread is $" + bread.Cost);
+                Console.WriteLine("Your total cost is $" + bread.Cost);
             
             }else if(answer == "P" || answer == "p")
             {
+                Console.WriteLine("PASTRY MENU: One pastry: $2. Special Offer: Buy 3, get all 3 pastries for 5$!Enter how many loaves you want? ");
+                    string userInputPastry = Console.ReadLine();
+                    pastry.Quant += int.Parse(userInputPastry);
+                    pastry.Cost = Pastry.PastryCost(pastry.Quant);
+                    Console.WriteLine("Your total cost is $" + pastry.Cost);
 
             }else if(answer == "C" || answer == "c")
             {
