@@ -12,7 +12,7 @@ namespace PierresBakery
             Bread bread = new Bread(0, 0);
             Pastry pastry = new Pastry(0,0);
 
-            Console.WriteLine("Welcome to Pierre's.We have a delicious selection of breads and pastries.What would you like to order?For breads(press B),pastry(press P) or combination(press C) or none(Type no)?");
+            Console.WriteLine("Welcome to Pierre's.We have a delicious selection of breads and pastries.What would you like to order?For breads(press B),pastry(press P) or none(Type no/No)?");
             string userInput = Console.ReadLine().ToLower();
             string answer = Console.ReadLine();
             if (answer == "B" || answer == "b")
@@ -30,9 +30,6 @@ namespace PierresBakery
                     pastry.Quant += int.Parse(userInputPastry);
                     pastry.Cost = Pastry.PastryCost(pastry.Quant);
                     Console.WriteLine("Your total cost is $" + pastry.Cost);
-
-            }else if(answer == "C" || answer == "c")
-            {
 
             }else if( answer == "No" || answer == "no" || answer == "NO")
             {
