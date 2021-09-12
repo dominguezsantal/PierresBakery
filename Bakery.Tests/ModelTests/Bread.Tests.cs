@@ -6,7 +6,6 @@ namespace Bakery.Tests
   [TestClass]
   public class BreadTests
   {
- 
     [TestMethod]
     public void BreadCost_ShowCostforOneLoaf_1()
     {
@@ -23,6 +22,23 @@ namespace Bakery.Tests
       public void BreadCost_ShowCostForFiveLoavesOfBread_5()
       {
         Assert.AreEqual(20, Bread.BreadCost(5));
+      }
+      [TestMethod]
+      public void SetObj_SetObj_Bread()
+      {
+        int quant = 0;
+            int cost = 0;
+            Bread newBread = new Bread(quant, cost);
+
+            int updatedQuant = 2;
+            newBread.Quant = updatedQuant;
+            int finalQu = newBread.Quant;
+            int updatedCost = 2;
+            newBread.Cost = updatedCost;
+            int finalCo = newBread.Cost;
+
+            Assert.AreEqual(updatedQuant, finalQu);
+            Assert.AreEqual(updatedCost, finalCo);
       }
   }
 }
