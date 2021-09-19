@@ -14,7 +14,7 @@ Conditions:
 * _NuGet Package Manager_
 * _.Net 5_
 * _REPL_
-* _MySQL_
+
 
 
 ## Setup/Installation Requirements :
